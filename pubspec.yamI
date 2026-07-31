@@ -1,0 +1,19 @@
+name: agora_flutter_v2
+description: Agora Flutter Project
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  agora_rtc_engine: ^6.3.0  # ini fix error webrtc di Codemagic
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
